@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header {
+  background-color: #4caf50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  width: 80%;
+  background-color: #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+.player-area {
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+}
+
+.player-area.active {
+  background-color: #eee;
+}
+
+.dice-area {
+  grid-column: 1 / span 2;
+  text-align: center;
+}
+
+#dice {
+  width: 100px;
+  height: 100px;
+}
+
+.button-area {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+footer {
+  background-color: #eee;
+  padding: 10px;
+  text-align: center;
+  font-size: 0.8rem;
+}
+.message-area {
+  display: none; /* Initially hidden */
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.message-area.active {
+  display: block; /* Show when a player wins */
+}
+
+.message-area.player-1-win {
+  background-color: #4caf50; /* Green for Player 1 win */
+  color: white;
+}
+
+.message-area.player-2-win {
+  background-color: #c0392b; /* Red for Player 2 win */
+  color: white;
+}
