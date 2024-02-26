@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/piggame/static/css/main.5412b5f0.css",
-    "main.js": "/piggame/static/js/main.2ecbdcd9.js",
+    "main.js": "/piggame/static/js/main.f1cff312.js",
     "index.html": "/piggame/index.html",
     "main.5412b5f0.css.map": "/piggame/static/css/main.5412b5f0.css.map",
-    "main.2ecbdcd9.js.map": "/piggame/static/js/main.2ecbdcd9.js.map"
+    "main.f1cff312.js.map": "/piggame/static/js/main.f1cff312.js.map"
   },
   "entrypoints": [
     "static/css/main.5412b5f0.css",
-    "static/js/main.2ecbdcd9.js"
+    "static/js/main.f1cff312.js"
   ]
 }
