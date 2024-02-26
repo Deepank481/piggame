@@ -2,7 +2,7 @@ import { useState } from "react";
 import Board from "./Board";
 import Message from "./Message";
 import Buttons from "./Buttons";
-const scoreToReach = 20;
+const scoreToReach = 100;
 export default function Main() {
   const [image, setImage] = useState("./images/dice-0.png");
   const [playerActive, setPlayerActive] = useState(0);
